@@ -18,6 +18,6 @@ public class ReflectionQuestion {
         Object obj = cls.newInstance();
         Method method = cls.getMethod(methodName);
         method.invoke(obj);
-        /**传统:对象.方法()  现在:方法.invoke(对象)**/
+        /**传统:对象.方法()  现在:方法.invoke(对象)222222222222**/
     }
 }
